@@ -1,6 +1,6 @@
 h1 {
     color: red;
-    font-weigh: bold;
+    font-weight: bold;
 }
 h1 {
     color:blueviolet;
@@ -12,4 +12,13 @@ h1 {
     height: 100px;
     padding-top: 40px;
     margin-bottom: 100px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 200px 100px 300px;
+    grid-template-rows: 300px 200px;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". . ."
+    ". . .";
 }
